@@ -2,7 +2,7 @@ mysql> select name from w.student where scores=100;
 +------------+
 | name       |
 +------------+
-| ramya      |
+| rahim      |
 | uday kiran |
 +------------+
 2 rows in set (0.00 sec)
@@ -11,10 +11,10 @@ mysql> select name, assements from w.student where assements>1;
 | name       | assements |
 +------------+-----------+
 | hari       |         2 |
-| durga      |         7 |
+| durgesh    |         7 |
 | venu kumar |         2 |
-| bhagya     |         5 |
-| sameera    |         2 |
+| bhargav    |         5 |
+| sameer     |         2 |
 +------------+-----------+
 5 rows in set (0.00 sec)
 mysql> select fac_name from w.faculty where date_of_join>"2019-01-01";
